@@ -1,0 +1,20 @@
+{
+  "name": "youtube-playlist-ts",
+  "version": "1.0.0",
+  "description": "YouTube Playlist Creator using Node.js and TypeScript",
+  "bin": {
+    "youtube-playlist": "./youtubePlaylist.ts"
+  },
+  "scripts": {
+    "build": "tsc youtubePlaylist.ts",
+    "start": "ts-node youtubePlaylist.ts"
+  },
+  "dependencies": {
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.2"
+  }
+}
