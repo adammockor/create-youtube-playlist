@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node
 
 import { readFileSync, writeFileSync, createReadStream } from "node:fs";
 import { Common, google } from "googleapis";
